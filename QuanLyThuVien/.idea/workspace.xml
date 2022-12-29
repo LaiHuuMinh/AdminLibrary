@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="QuanLyThuVien:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02197e7b-903d-4d57-9e31-eb269a7243ec" name="Changes" comment="QuanLyThuVien">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/QuanLyThuVien_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/QuanLyThuVien_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Controller/API/UserAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Controller/API/UserAPIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/IBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/IBookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/IGenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/IGenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/impl/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/impl/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/impl/ConnectMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/impl/ConnectMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/Dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/dto/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/dto/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/dto/request/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/dto/request/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/mapper/IRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/mapper/IRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/model/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/model/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/Contains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/Contains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/MapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/MapUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/quanlythuvien/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Page/BookList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Page/BookList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Page/BookList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Page/BookList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Page/UserAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Page/UserAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Page/UserPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Page/UserPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Page/UserPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Page/UserPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JV7hg8MmP2vyQX4vf6L4vchAI4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/angular/product-HaNoiComputer&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Project\QLTV\QuanLyThuVien\src\main\webapp\dist\img" />
+      <recent name="D:\Workspace\Project\QLTV\QuanLyThuVien\src\main\java\com\web\quanlythuvien\util" />
+      <recent name="D:\Workspace\Project\QLTV\QuanLyThuVien\src\main\java\com\web\quanlythuvien\service" />
+      <recent name="D:\Workspace\Project\QLTV\QuanLyThuVien\src\main\java\com\web\quanlythuvien\exception" />
+      <recent name="D:\Workspace\Project\QLTV\QuanLyThuVien\src\main\java\com\web\quanlythuvien\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Project\QLTV\QuanLyThuVien\src\main\webapp\dist\img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.web.quanlythuvien.dto" />
+      <recent name="com.web.quanlythuvien.dto.request" />
+      <recent name="com.web.quanlythuvien.Controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.841" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.841" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="QuanLyThuVien:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/QuanLyThuVien" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="0dd73702-a1b7-4882-aab4-366ef5d3fa3c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64518" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="QuanLyThuVien:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02197e7b-903d-4d57-9e31-eb269a7243ec" name="Changes" comment="" />
+      <created>1672151519000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672151519000</updated>
+      <workItem from="1672151520369" duration="8268000" />
+      <workItem from="1672204065977" duration="38283000" />
+      <workItem from="1672250556621" duration="713000" />
+      <workItem from="1672288720839" duration="11488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="QuanLyThuVien" />
+    <option name="LAST_COMMIT_MESSAGE" value="QuanLyThuVien" />
+  </component>
+</project>

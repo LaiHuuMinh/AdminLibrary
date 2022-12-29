@@ -1,0 +1,164 @@
+package com.web.quanlythuvien.Dao.impl;
+
+import com.web.quanlythuvien.Dao.IGenericDao;
+import com.web.quanlythuvien.mapper.IRowMapper;
+import com.web.quanlythuvien.model.entity.UserEntity;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class AbstractDao<T> implements IGenericDao<T> {
+    public Connection getConnection(){
+
+        String url = "jdbc:mysql://localhost:3306/thuvien";
+        String username = "minh";
+        String password = "123456789minh";
+
+
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            return DriverManager.getConnection(url,username,password);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    @Override
+    public List<T> findByProperties(String sql, IRowMapper<T> mapper, Object... params){
+        Connection connection = getConnection();
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        List<T> data = new ArrayList<>();
+        try {
+            preparedStatement = connection.prepareStatement(sql);
+            setParam(preparedStatement,params);
+            resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()){
+                T object = mapper.mapFromDbToClass(resultSet);
+                data.add(object);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            if (connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return data;
+    }
+
+
+
+    public void deleteForID(String sql,Object... param){
+
+        PreparedStatement preparedStatement = null;
+        Connection connection = getConnection();
+
+        try {
+            connection.setAutoCommit(false);
+            preparedStatement = connection.prepareStatement(sql);
+            setParam(preparedStatement,param);
+            preparedStatement.executeUpdate();
+            connection.commit();
+        } catch (SQLException sqlException) {
+            sqlException.printStackTrace();
+            try {
+                connection.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }finally {
+                if (connection != null){
+                    try {
+                        connection.close();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                }
+                if (preparedStatement != null){
+                    try {
+                        preparedStatement.close();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+
+    public void insert(String sql,Object... param){
+        PreparedStatement preparedStatement = null;
+        Connection connection = getConnection();
+
+        try {
+            connection.setAutoCommit(false);
+            preparedStatement = connection.prepareStatement(sql);
+            setParam(preparedStatement,param);
+            preparedStatement.executeUpdate();
+            connection.commit();
+        } catch (SQLException sqlException) {
+            sqlException.printStackTrace();
+            try {
+                connection.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }finally {
+                if (connection != null){
+                    try {
+                        connection.close();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                }
+                if (preparedStatement != null){
+                    try {
+                        preparedStatement.close();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+
+    }
+    private void setParam(PreparedStatement preparedStatement, Object... param) throws SQLException {
+        for (int i = 0; i < param.length; i++) {
+            int index = i + 1;
+            Object value = param[i];
+            if (value instanceof String){
+                preparedStatement.setString(index,(String) value);
+            }else if (value instanceof Integer){
+                preparedStatement.setInt(index, (Integer) value);
+            }else if (value instanceof Boolean){
+                preparedStatement.setBoolean(index,(Boolean) value);
+            }else if (value instanceof Timestamp){
+                preparedStatement.setTimestamp(index,(Timestamp) value);
+            }else if (value instanceof Long){
+                preparedStatement.setLong(index,(Long)value);
+            }
+        }
+    }
+
+
+}
